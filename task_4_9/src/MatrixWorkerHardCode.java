@@ -139,7 +139,7 @@ public class MatrixWorkerHardCode {
             }
 
             if (isLocalMinInAngle0N(vector, 0, row)) {
-                vector[row][0] = 0;
+                vector[0][row] = 0;
             }
 
             for (int i = 1; i < row; i++) {
